@@ -1,0 +1,14 @@
+# Never upload/serve these as public static assets
+.git
+.git/**
+.wrangler
+.wrangler/**
+node_modules
+node_modules/**
+
+# Repo metadata, not part of the site
+.gitignore
+.assetsignore
+wrangler.jsonc
+wrangler.toml
+README.md
